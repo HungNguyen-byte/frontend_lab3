@@ -1,4 +1,5 @@
-const API = 'http://localhost:3000/api/tasks';
+// frontend/app.js
+const API = ' https://backend-lab3-q2p0.onrender.com/api/tasks';
 
 async function fetchTasks() {
     const res = await fetch(API);
